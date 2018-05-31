@@ -1,1 +1,10 @@
 curl 'https://github.com/settings/applications' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8' -H 'Accept-Encoding: gzip, deflate, br' -H 'Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3' -H 'Connection: keep-alive' -H 'Cookie: logged_in=yes; _ga=GA1.2.1862385822.1468673574; _octo=GH1.1.156519585.1468673574; _gh_sess=YmhoMnFWci9oTXNUSDJ3N21SM1NHVkJoTFJVdU1vWXh0WHRjeDZnZng0Z3Q2djNaQUJ3Qms2ZnFKUjlENlBUeFhwcmdERkcrRHlOQnBsdmxLc0ZHcGRZTytWOE9qaEpLR25keUYxTTNRTGJQRUQybnA5ekZGbldBbVpWeWtINlNvSklPSXN2UVNxTUhEWlhFdTJUT0phcnU0eGFyZytsMjY0THU2TFRRQUhiUUx4OUhSSDM4bDFsbGkvbnM1NTAwU0Y1cUdCZ20xa1NELzVBditBa0xoY0dGbHREZGs2UXhTd2xPUnE4ZGRXRT0tLThaUFFuSEVPSjJ2blA4ZkoxaEw5VVE9PQ%3D%3D--9a822d7d1733fe6a0793a87b808e12716a8f16c7; user_session=XZbFFP3TALnLavkt_KRA61YuRYnhYMDcSrzxbWahhOZkXUBU; __Host-user_session_same_site=XZbFFP3TALnLavkt_KRA61YuRYnhYMDcSrzxbWahhOZkXUBU; dotcom_user=zhangting85; _gat=1' -H 'Host: github.com' -H 'Referer: https://github.com/settings/applications/new' -H 'Upgrade-Insecure-Requests: 1' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:49.0) Gecko/20100101 Firefox/49.0' -H 'Content-Type: application/x-www-form-urlencoded' --data 'utf8=%E2%9C%93&authenticity_token=XlZWR7QrG%2FTybIBrQk2XOL2mSw1uDleERhHYPBNDFXKjOzrStGKRDhM2UHelc%2F%2BIsiZH0PNWGd19fkWjPGSJtg%3D%3D&oauth_application%5Bname%5D=test2&oauth_application%5Burl%5D=http%3A%2F%2F127.0.0.1%3A8080&oauth_application%5Bdescription%5D=test2&oauth_application%5Bcallback_url%5D=http%3A%2F%2F127.0.0.1%3A8080%2Fcallback'
+
+data = [
+  ('utf8', '\u2713'),
+  ('authenticity_token', 'XlZWR7QrG/TybIBrQk2XOL2mSw1uDleERhHYPBNDFXKjOzrStGKRDhM2UHelc/+IsiZH0PNWGd19fkWjPGSJtg=='),
+  ('oauth_application[name]', 'test2'),
+  ('oauth_application[url]', 'http://127.0.0.1:8080'),
+  ('oauth_application[description]', 'test2'),
+  ('oauth_application[callback_url]', 'http://127.0.0.1:8080/callback'),
+]
